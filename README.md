@@ -1,2 +1,4 @@
-# tela-login-netflix
-Simulação básica da tela de login do site Netflix
+#tela-login-netflix
+Os arquivos estão na branch dev
+
+Instagram: jonas.henrique0
