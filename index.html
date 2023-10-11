@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Tela Login - Netflix</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <a href="#">
+          <img
+            src="https://logopng.com.br/logos/netflix-94.png"
+            alt="Logo Netflix"
+          />
+        </a>
+      </header>
+      <main>
+        <section class="formulario">
+          <h2>Entrar</h2>
+          <form>
+            <div>
+              <input
+                type="text"
+                name="email"
+                id="email"
+                placeholder="Email ou número de telefone"
+                required
+              />
+            </div>
+
+            <div>
+              <input type="password" id="senha" placeholder="Senha" required />
+            </div>
+            <div>
+              <button>Entrar</button>
+            </div>
+            <div class="checkbox">
+              <div class="lembrar">
+                <input type="checkbox" id="checado" checked/>
+                <label for="checado" class="alinhamento-checkbox"
+                  >Lembre-se de mim</label
+                >
+              </div>
+              <div class="alinhamento-checkbox">
+                <a href="#">Precisa de ajuda?</a>
+              </div>
+            </div>
+            <div class="rodape-form">
+              <p class="novo">Novo por aqui? <a href="#">Assine agora</a></p>
+              <p class="recaptcha">
+                Esta página é protegida pelo Google reCAPTCHA para garantir que
+                você não é um robô. <a href="#">Saiba mais</a>
+              </p>
+            </div>
+          </form>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
